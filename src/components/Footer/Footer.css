@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+a{
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+.footer-left{
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-img1{
+    /* background-image: url('https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blt138432be14780f67/5dd4935d0386806c8e4e1001/Buy-Footer-Art.png?auto=webp'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-right: 30px;
+}
+.footer-right{
+    width: 55%;
+}
+.footer-info-game{
+    margin-left: 30px;
+}
+.footer-h5{
+    font-size: 20px;
+}
+.footer-background{
+    background-image: url('https://static.playoverwatch.com/img/pages/buy/buy-bar-bg-3c956a1db2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    margin-top: -30px;
+}
+.footer-1-h4{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 20px;
+}
+.fab{
+    color: white;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+.footer-icon-btn{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+.overwatchFooter{
+    width: 250px;
+}
+.footer-h{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.footer-h>a{
+    color: black;
+}
+.footer-hr{
+    border-left: 1px solid black;
+    margin-left: 10px;
+    padding-left: 15px;
+}
+@media all and (max-width:900px){
+    .footer-h2, .footer-h5{
+        font-size: 15px;
+        width: 100%;
+    }
+    .footer-hr1, .footer-hr{
+        font-size: 8px;
+        width: 80%;
+    }
+}

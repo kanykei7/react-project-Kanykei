@@ -1,0 +1,10 @@
+.productCard{
+    width: 270px;
+    height: 530px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.itemImg{
+    height: 230px;
+    margin: 0 auto;
+}
+.itemTitile{text-align: center;}
